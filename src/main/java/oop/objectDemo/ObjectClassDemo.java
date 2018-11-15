@@ -12,8 +12,7 @@ public class ObjectClassDemo {
         System.out.println(instance.equals(instance1));
 
 
-
-        instance1=null;
+        instance1 = null;
 
         System.gc();
     }

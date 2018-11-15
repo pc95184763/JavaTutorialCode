@@ -12,16 +12,13 @@ public class VariableDemo {
 
         age = 30;
         //30 = age;
-       // 30 = age;  not allowed
+        // 30 = age;  not allowed
         System.out.println("age:" + age);
 
         int _usa;
         int $usa;
 
         int j_a$p;
-
-
-
 
 
 //        int number;

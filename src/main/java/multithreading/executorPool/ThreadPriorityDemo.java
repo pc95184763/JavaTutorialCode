@@ -48,7 +48,7 @@ public class ThreadPriorityDemo {
 class PrintRandomNumber implements Runnable {
     @Override
     public void run() {
-        System.out.println((Thread.currentThread().getName() + ":" + (int) Math.random()*100));
+        System.out.println((Thread.currentThread().getName() + ":" + (int) Math.random() * 100));
     }
 }
 

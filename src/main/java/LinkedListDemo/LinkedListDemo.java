@@ -38,14 +38,14 @@ public class LinkedListDemo {
         System.out.println("---------- for each loop-------------");
 
 
-        for (String item:linkedList){
+        for (String item : linkedList) {
             System.out.println(item);
         }
 
         System.out.println("-------iterator------");
-        Iterator<String> itr =linkedList.iterator();
+        Iterator<String> itr = linkedList.iterator();
 
-        while (itr.hasNext()){
+        while (itr.hasNext()) {
             System.out.println(itr.next());
         }
 

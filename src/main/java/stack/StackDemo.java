@@ -22,6 +22,6 @@ public class StackDemo {
         //Returns the 1-based position where an object is on this stack.
         System.out.println(stack.search("Tracy"));
         System.out.println(stack);
-        
+
     }
 }

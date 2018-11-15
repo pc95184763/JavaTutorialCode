@@ -67,7 +67,7 @@ public class DataType {
     }
 
 
-    public void showDefaultValue(){
+    public void showDefaultValue() {
         System.out.println(i1);
         System.out.println(f1);
         System.out.println(d1);

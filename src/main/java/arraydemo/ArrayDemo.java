@@ -12,7 +12,7 @@ public class ArrayDemo {
 
         //show initial value of an array
         for (int item : a) {
-            System.out.print(item+" ");
+            System.out.print(item + " ");
         }
         //show element in array whose index is 9
         System.out.println(a[9]);

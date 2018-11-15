@@ -11,6 +11,6 @@ public class ThisKeywordDemo {
     }
 
     public ThisKeywordDemo() {
-        this("Andrew","male");
+        this("Andrew", "male");
     }
 }

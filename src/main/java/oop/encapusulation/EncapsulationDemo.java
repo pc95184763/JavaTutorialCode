@@ -6,6 +6,5 @@ public class EncapsulationDemo {
         Student lily = new Student();
 
 
-
     }
 }

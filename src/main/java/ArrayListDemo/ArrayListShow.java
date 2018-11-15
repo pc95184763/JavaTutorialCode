@@ -22,14 +22,12 @@ public class ArrayListShow {
 
         arrayList.add("James");
         arrayList.add("Kobe");
-        arrayList.add(1,"Jordan");
+        arrayList.add(1, "Jordan");
 
         arrayList.remove(1);
 
 
-
         System.out.println(arrayList);
-
 
 
     }

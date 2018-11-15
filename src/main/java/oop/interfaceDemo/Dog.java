@@ -2,7 +2,7 @@ package oop.interfaceDemo;
 
 import java.io.Serializable;
 
-public class Dog implements Animal,Person,Serializable {
+public class Dog implements Animal, Person, Serializable {
     @Override
     public void makeSound() {
         System.out.println("wangwang");

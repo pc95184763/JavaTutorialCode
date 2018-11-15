@@ -1,7 +1,7 @@
 package oop.abstractClass;
 
 public abstract class Animal {
-    public void sleep(){
+    public void sleep() {
         System.out.println("Animal sleep!");
     }
 

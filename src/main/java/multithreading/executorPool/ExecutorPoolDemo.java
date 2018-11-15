@@ -24,15 +24,14 @@ public class ExecutorPoolDemo {
 
         System.out.println("Is shutdown?" + executorService.isShutdown());
 
-       while (!executorService.isTerminated()){
-           System.out.println("Not terminated!");
-           try {
-               Thread.sleep(500);
-           } catch (InterruptedException e) {
-               e.printStackTrace();
-           }
-       }
-
+        while (!executorService.isTerminated()) {
+            System.out.println("Not terminated!");
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
 
 
 //        executorService.execute(new PrintNumber());

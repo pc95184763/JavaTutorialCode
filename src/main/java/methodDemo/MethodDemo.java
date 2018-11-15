@@ -24,7 +24,7 @@ public class MethodDemo {
         System.out.println(max(1, 2));
 
         MethodDemo methodDemo = new MethodDemo();
-        System.out.println(methodDemo.min(2,1));
+        System.out.println(methodDemo.min(2, 1));
 
 
     }

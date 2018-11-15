@@ -27,7 +27,7 @@ class PrintTaskA implements Runnable {
                     e.printStackTrace();
                 }
             }
-            System.out.print(i+" ");
+            System.out.print(i + " ");
         }
     }
 }

@@ -73,8 +73,8 @@ public class SetDemo {
             }
         });
 
-        Student a1 = new Student(33,"a",18);
-        Student a2 = new Student(33,"b",23);
+        Student a1 = new Student(33, "a", 18);
+        Student a2 = new Student(33, "b", 23);
 
 
         System.out.println("------hashcode---------");
@@ -83,8 +83,8 @@ public class SetDemo {
         customTreeSet.add(a2);
         System.out.println(customTreeSet);
 
-        Iterator<Student> itr=customTreeSet.iterator();
-        while (itr.hasNext()){
+        Iterator<Student> itr = customTreeSet.iterator();
+        while (itr.hasNext()) {
             System.out.println(itr.next());
         }
 
@@ -99,13 +99,13 @@ public class SetDemo {
         System.out.println(customTreeSet);
 
 
-
         treeSet.clear();
         System.out.println(treeSet.size());
 
 
     }
 }
+
 class Student {
     private int score;
     private String name;
