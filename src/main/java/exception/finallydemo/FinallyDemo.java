@@ -7,7 +7,7 @@ public class FinallyDemo {
         } catch (RuntimeException ex) {
             System.out.println(ex);
         } finally {
-            System.out.println("Finally block executed!");
+            System.out.println("Finally block executed!");//this line of code will be executed no matter what happens
         }
     }
 }

@@ -6,7 +6,7 @@ public class UncheckedExceptionDemo {
         int a = 1;
         int b = 0;
         int c = a / b;
-        System.out.printf("c=" + c);
+        System.out.printf("c=" + c);//this line of code will throw an Runtime Exception
     }
 
 }

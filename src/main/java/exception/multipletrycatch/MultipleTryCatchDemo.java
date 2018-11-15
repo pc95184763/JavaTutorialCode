@@ -11,10 +11,7 @@ public class MultipleTryCatchDemo {
         } catch (ArrayIndexOutOfBoundsException | OutOfMemoryError e) {
             System.out.println(e);
         }
-
     }
-
-
 }
 
 

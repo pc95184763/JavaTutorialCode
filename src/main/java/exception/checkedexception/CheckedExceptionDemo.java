@@ -2,7 +2,7 @@ package exception.checkedexception;
 
 import java.io.*;
 
-class Main {
+public class CheckedExceptionDemo {
     public static void main(String[] args) {
         FileReader file = null;
         try {
