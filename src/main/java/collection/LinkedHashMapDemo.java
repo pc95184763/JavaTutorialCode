@@ -1,4 +1,4 @@
-package collection.map;
+package collection;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
