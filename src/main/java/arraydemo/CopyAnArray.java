@@ -9,7 +9,13 @@ public class CopyAnArray {
         for (int item : b) {
             System.out.println(item);
         }
-    }
+
+        System.out.println("-------------------------");
+
+        int[] c = a.clone();
+        for (int item : c) {
+            System.out.println(item);
+        }    }
 
     public static int[] copyAnArray(int src[]) {
         int des[] = new int[src.length];

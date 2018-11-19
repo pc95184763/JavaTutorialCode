@@ -57,9 +57,9 @@ public class DecisionMakingDemo {
 
 
     public static void main(String[] args) {
-        showIf();
-        showIfElse();
-        showIfElseIf();
+//        showIf();
+//        showIfElse();
+//        showIfElseIf();
         showNestedIf();
     }
 
