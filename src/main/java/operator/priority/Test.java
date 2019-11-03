@@ -10,10 +10,7 @@ public class Test {
     System.out.println(y);
   }
 
-
-  //2
-
-  //3
+  //1
 
 
 }
