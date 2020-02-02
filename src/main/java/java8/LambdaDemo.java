@@ -41,13 +41,7 @@ public class LambdaDemo {
     list.forEach((item) -> {
       System.out.println(item);
     });
-
-
-
-
-
   }
-
 
 
 }
