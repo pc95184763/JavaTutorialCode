@@ -9,7 +9,16 @@ public class IdentifiersInJava {
     //4.标识符的长度是可以任意的
     String $_computeAverage1_$;
 
+    String aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
+
     String demoForVariable;
+    String DemoForVariable;
+    int areaOfCircle;
+    int areaOfRectangle;
+
+    int i,j,k;
+
+    //for (int i=0;i)
 
   }
 }

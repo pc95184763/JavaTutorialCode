@@ -12,6 +12,7 @@ class Test {
         list.add("D");
         list.add("E");
 
+
         // Iterator to traverse the list
         Iterator iterator = list.iterator();
 
