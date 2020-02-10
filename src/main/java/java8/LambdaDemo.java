@@ -6,52 +6,42 @@ import java.util.List;
 import java.util.Map;
 
 public class LambdaDemo {
-    public static void main(String[] args) {
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-        map.put(1, 1);
-        map.put(2, 2);
-        map.put(3, 3);
 
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+  public static void main(String[] args) {
+    // Creating an empty HashMap
+    HashMap<Integer, String> hash_map = new HashMap<Integer, String>();
 
-            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+    // Mapping string values to int keys
+    hash_map.put(10, "Geeks");
+    hash_map.put(15, "4");
+    hash_map.put(20, "Geeks");
+    hash_map.put(25, "Welcomes");
+    hash_map.put(30, "You");
 
-        }
+    for (Map.Entry<Integer, String> entry : hash_map.entrySet()) {
 
-        System.out.println("=================");
-
-        map.forEach((k, v) -> {
-            System.out.println("Key=" + k);
-            System.out.println("Value=" + v);
-        });
-
-        System.out.println("=================");
-
-
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-
-        list.forEach(k -> System.out.println(k));
-
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("Hello world!");
-            }
-        });
-
-
-        new Thread(()->{
-            System.out.println("Hello world!");
-        });
-
-
-
+      System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
 
     }
+
+    System.out.println("=================================================");
+
+    hash_map.forEach((k, v) -> {
+      System.out.println(k + ":" + v);
+    });
+
+    List<Integer> list = new ArrayList<>();
+    list.add(1);
+    list.add(2);
+    list.add(3);
+    list.add(4);
+
+    System.out.println("=================================================");
+
+    list.forEach((item) -> {
+      System.out.println(item);
+    });
+  }
 
 
 }
