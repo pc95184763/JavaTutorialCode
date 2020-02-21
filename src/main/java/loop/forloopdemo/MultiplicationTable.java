@@ -1,7 +1,10 @@
 package loop.forloopdemo;
 
 public class MultiplicationTable {
-  /** Main method */
+
+  /**
+   * Main method
+   */
   public static void main(String[] args) {
     // Display the table heading
     System.out.println("           Multiplication Table");

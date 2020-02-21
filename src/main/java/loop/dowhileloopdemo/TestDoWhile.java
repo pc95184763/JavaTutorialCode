@@ -3,7 +3,10 @@ package loop.dowhileloopdemo;
 import java.util.Scanner;
 
 public class TestDoWhile {
-  /** Main method */
+
+  /**
+   * Main method
+   */
   public static void main(String[] args) {
     int data;
     int sum = 0;
@@ -15,7 +18,7 @@ public class TestDoWhile {
     do {
       // Read the next data
       System.out.print(
-        "Enter an integer (the input ends if it is 0): ");
+          "Enter an integer (the input ends if it is 0): ");
       data = input.nextInt();
 
       sum += data;
