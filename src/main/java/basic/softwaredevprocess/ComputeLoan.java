@@ -2,7 +2,7 @@ package basic.softwaredevprocess;
 
 import java.util.Scanner;
 
-public class ComputeLoan {
+public class ComputeLoan  {
 
   public static void main(String[] args) {
     // Create a Scanner
@@ -30,5 +30,8 @@ public class ComputeLoan {
     // Display results
     System.out.println("The monthly payment is $" + (int) (monthlyPayment * 100) / 100.0);
     System.out.println("The total payment is $" + (int) (totalPayment * 100) / 100.0);
+
   }
+
+
 }

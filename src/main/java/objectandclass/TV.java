@@ -52,4 +52,13 @@ public class TV {
       volumeLevel--;
     }
   }
+
+  @Override
+  public String toString() {
+    return "TV{" +
+        "channel=" + channel +
+        ", volumeLevel=" + volumeLevel +
+        ", on=" + on +
+        '}'+"is demo by andrew";
+  }
 }
