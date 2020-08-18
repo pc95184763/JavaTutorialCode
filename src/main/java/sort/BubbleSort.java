@@ -2,18 +2,36 @@ package sort;
 
 public class BubbleSort {
 
-  public void bubble(Integer[] data) {
+  /**
+   * Bubble sort method
+   */
+  public static void bubbleSort(int[] list) {
+    boolean needNextPass = true;
 
-    for (int i = 0; i < data.length; i++) {
-      for (int j = 0; j < data.length - 1 - i; j++) {
+    for (int k = 1; k < list.length && needNextPass; k++) {
+      // Array may be sorted and next pass not needed
+      needNextPass = false;
+      for (int i = 0; i < list.length - k; i++) {
+        if (list[i] > list[i + 1]) {
+          // Swap list[i] with list[i + 1]
+          int temp = list[i];
+          list[i] = list[i + 1];
+          list[i + 1] = temp;
 
-        //如果后一个数小于前一个数，则两个数互相交换位置
-        if (data[j] > data[j + 1]) {
-          int tmp = data[j];
-          data[j] = data[j + 1];
-          data[j + 1] = tmp;
+          needNextPass = true; // Next pass still needed
         }
       }
+    }
+  }
+
+  /**
+   * A test method
+   */
+  public static void main(String[] args) {
+    int[] list = {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
+    bubbleSort(list);
+    for (int i = 0; i < list.length; i++) {
+      System.out.print(list[i] + " ");
     }
   }
 }
