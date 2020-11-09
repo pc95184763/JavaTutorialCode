@@ -47,4 +47,8 @@ public class User {
         ", age=" + age +
         '}';
   }
+
+  private void testPrivate(){
+
+  }
 }

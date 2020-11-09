@@ -16,7 +16,7 @@ public class Test01 {
     System.out.println(c3.hashCode());
     System.out.println(c4.hashCode());
 
-    User user1 = new User();
+    //User user1 = new User();
 
     User user2= (User) c1.newInstance();
 
